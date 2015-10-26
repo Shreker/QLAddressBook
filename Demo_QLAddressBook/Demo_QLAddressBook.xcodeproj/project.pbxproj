@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D6BD64D1B2451570080BC06 /* QLOriViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD64C1B2451570080BC06 /* QLOriViewController.m */; };
+		6D6BD68E1B2473AF0080BC06 /* NSThread+RHBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD6751B2473AE0080BC06 /* NSThread+RHBlockAdditions.m */; };
+		6D6BD68F1B2473AF0080BC06 /* RHAddressBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6D6BD6761B2473AF0080BC06 /* RHAddressBook-Info.plist */; };
+		6D6BD6901B2473AF0080BC06 /* RHAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD6791B2473AF0080BC06 /* RHAddressBook.m */; };
+		6D6BD6911B2473AF0080BC06 /* RHAddressBookGeoResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD67C1B2473AF0080BC06 /* RHAddressBookGeoResult.m */; };
+		6D6BD6921B2473AF0080BC06 /* RHAddressBookSharedServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD67E1B2473AF0080BC06 /* RHAddressBookSharedServices.m */; };
+		6D6BD6931B2473AF0080BC06 /* RHAddressBookThreadMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD6801B2473AF0080BC06 /* RHAddressBookThreadMain.m */; };
+		6D6BD6941B2473AF0080BC06 /* RHGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD6831B2473AF0080BC06 /* RHGroup.m */; };
+		6D6BD6951B2473AF0080BC06 /* RHMultiValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD6851B2473AF0080BC06 /* RHMultiValue.m */; };
+		6D6BD6961B2473AF0080BC06 /* RHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD6871B2473AF0080BC06 /* RHPerson.m */; };
+		6D6BD6971B2473AF0080BC06 /* RHRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD68A1B2473AF0080BC06 /* RHRecord.m */; };
+		6D6BD6981B2473AF0080BC06 /* RHSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6BD68D1B2473AF0080BC06 /* RHSource.m */; };
+		6DDC77761B23F846008331EC /* Demo_QLAddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDC77751B23F846008331EC /* Demo_QLAddressBookTests.m */; };
+		6DDC77851B23F865008331EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDC777F1B23F865008331EC /* Images.xcassets */; };
+		6DDC77861B23F865008331EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDC77801B23F865008331EC /* main.m */; };
+		6DDC77871B23F865008331EC /* QLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDC77821B23F865008331EC /* QLAppDelegate.m */; };
+		6DDC77881B23F865008331EC /* QLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDC77841B23F865008331EC /* QLViewController.m */; };
+		6DDC778B1B23F871008331EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DDC77891B23F871008331EC /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DDC77701B23F846008331EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DDC774E1B23F846008331EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DDC77551B23F846008331EC;
+			remoteInfo = Demo_QLAddressBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D6BD64A1B24381B0080BC06 /* QLAddressBookConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QLAddressBookConst.h; sourceTree = "<group>"; };
+		6D6BD64B1B2451570080BC06 /* QLOriViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLOriViewController.h; sourceTree = "<group>"; };
+		6D6BD64C1B2451570080BC06 /* QLOriViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLOriViewController.m; sourceTree = "<group>"; };
+		6D6BD6731B2473AE0080BC06 /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBook.h; sourceTree = "<group>"; };
+		6D6BD6741B2473AE0080BC06 /* NSThread+RHBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSThread+RHBlockAdditions.h"; sourceTree = "<group>"; };
+		6D6BD6751B2473AE0080BC06 /* NSThread+RHBlockAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSThread+RHBlockAdditions.m"; sourceTree = "<group>"; };
+		6D6BD6761B2473AF0080BC06 /* RHAddressBook-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RHAddressBook-Info.plist"; sourceTree = "<group>"; };
+		6D6BD6771B2473AF0080BC06 /* RHAddressBook-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RHAddressBook-Prefix.pch"; sourceTree = "<group>"; };
+		6D6BD6781B2473AF0080BC06 /* RHAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAddressBook.h; sourceTree = "<group>"; };
+		6D6BD6791B2473AF0080BC06 /* RHAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAddressBook.m; sourceTree = "<group>"; };
+		6D6BD67A1B2473AF0080BC06 /* RHAddressBook_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAddressBook_Private.h; sourceTree = "<group>"; };
+		6D6BD67B1B2473AF0080BC06 /* RHAddressBookGeoResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAddressBookGeoResult.h; sourceTree = "<group>"; };
+		6D6BD67C1B2473AF0080BC06 /* RHAddressBookGeoResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAddressBookGeoResult.m; sourceTree = "<group>"; };
+		6D6BD67D1B2473AF0080BC06 /* RHAddressBookSharedServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAddressBookSharedServices.h; sourceTree = "<group>"; };
+		6D6BD67E1B2473AF0080BC06 /* RHAddressBookSharedServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAddressBookSharedServices.m; sourceTree = "<group>"; };
+		6D6BD67F1B2473AF0080BC06 /* RHAddressBookThreadMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHAddressBookThreadMain.h; sourceTree = "<group>"; };
+		6D6BD6801B2473AF0080BC06 /* RHAddressBookThreadMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHAddressBookThreadMain.m; sourceTree = "<group>"; };
+		6D6BD6811B2473AF0080BC06 /* RHARCSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHARCSupport.h; sourceTree = "<group>"; };
+		6D6BD6821B2473AF0080BC06 /* RHGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHGroup.h; sourceTree = "<group>"; };
+		6D6BD6831B2473AF0080BC06 /* RHGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHGroup.m; sourceTree = "<group>"; };
+		6D6BD6841B2473AF0080BC06 /* RHMultiValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHMultiValue.h; sourceTree = "<group>"; };
+		6D6BD6851B2473AF0080BC06 /* RHMultiValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHMultiValue.m; sourceTree = "<group>"; };
+		6D6BD6861B2473AF0080BC06 /* RHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPerson.h; sourceTree = "<group>"; };
+		6D6BD6871B2473AF0080BC06 /* RHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHPerson.m; sourceTree = "<group>"; };
+		6D6BD6881B2473AF0080BC06 /* RHPersonLabels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHPersonLabels.h; sourceTree = "<group>"; };
+		6D6BD6891B2473AF0080BC06 /* RHRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRecord.h; sourceTree = "<group>"; };
+		6D6BD68A1B2473AF0080BC06 /* RHRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHRecord.m; sourceTree = "<group>"; };
+		6D6BD68B1B2473AF0080BC06 /* RHRecord_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHRecord_Private.h; sourceTree = "<group>"; };
+		6D6BD68C1B2473AF0080BC06 /* RHSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHSource.h; sourceTree = "<group>"; };
+		6D6BD68D1B2473AF0080BC06 /* RHSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHSource.m; sourceTree = "<group>"; };
+		6D6BD6991B2477B60080BC06 /* AddressBook.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = AddressBook.pptx; sourceTree = "<group>"; };
+		6DDC77561B23F846008331EC /* Demo_QLAddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_QLAddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDC775A1B23F846008331EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DDC776F1B23F846008331EC /* Demo_QLAddressBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo_QLAddressBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDC77741B23F846008331EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DDC77751B23F846008331EC /* Demo_QLAddressBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_QLAddressBookTests.m; sourceTree = "<group>"; };
+		6DDC777F1B23F865008331EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DDC77801B23F865008331EC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DDC77811B23F865008331EC /* QLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLAppDelegate.h; sourceTree = "<group>"; };
+		6DDC77821B23F865008331EC /* QLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLAppDelegate.m; sourceTree = "<group>"; };
+		6DDC77831B23F865008331EC /* QLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLViewController.h; sourceTree = "<group>"; };
+		6DDC77841B23F865008331EC /* QLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLViewController.m; sourceTree = "<group>"; };
+		6DDC778A1B23F871008331EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DDC77531B23F846008331EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDC776C1B23F846008331EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D6BD6721B2473AE0080BC06 /* RHAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				6D6BD6731B2473AE0080BC06 /* AddressBook.h */,
+				6D6BD6741B2473AE0080BC06 /* NSThread+RHBlockAdditions.h */,
+				6D6BD6751B2473AE0080BC06 /* NSThread+RHBlockAdditions.m */,
+				6D6BD6761B2473AF0080BC06 /* RHAddressBook-Info.plist */,
+				6D6BD6771B2473AF0080BC06 /* RHAddressBook-Prefix.pch */,
+				6D6BD6781B2473AF0080BC06 /* RHAddressBook.h */,
+				6D6BD6791B2473AF0080BC06 /* RHAddressBook.m */,
+				6D6BD67A1B2473AF0080BC06 /* RHAddressBook_Private.h */,
+				6D6BD67B1B2473AF0080BC06 /* RHAddressBookGeoResult.h */,
+				6D6BD67C1B2473AF0080BC06 /* RHAddressBookGeoResult.m */,
+				6D6BD67D1B2473AF0080BC06 /* RHAddressBookSharedServices.h */,
+				6D6BD67E1B2473AF0080BC06 /* RHAddressBookSharedServices.m */,
+				6D6BD67F1B2473AF0080BC06 /* RHAddressBookThreadMain.h */,
+				6D6BD6801B2473AF0080BC06 /* RHAddressBookThreadMain.m */,
+				6D6BD6811B2473AF0080BC06 /* RHARCSupport.h */,
+				6D6BD6821B2473AF0080BC06 /* RHGroup.h */,
+				6D6BD6831B2473AF0080BC06 /* RHGroup.m */,
+				6D6BD6841B2473AF0080BC06 /* RHMultiValue.h */,
+				6D6BD6851B2473AF0080BC06 /* RHMultiValue.m */,
+				6D6BD6861B2473AF0080BC06 /* RHPerson.h */,
+				6D6BD6871B2473AF0080BC06 /* RHPerson.m */,
+				6D6BD6881B2473AF0080BC06 /* RHPersonLabels.h */,
+				6D6BD6891B2473AF0080BC06 /* RHRecord.h */,
+				6D6BD68A1B2473AF0080BC06 /* RHRecord.m */,
+				6D6BD68B1B2473AF0080BC06 /* RHRecord_Private.h */,
+				6D6BD68C1B2473AF0080BC06 /* RHSource.h */,
+				6D6BD68D1B2473AF0080BC06 /* RHSource.m */,
+			);
+			path = RHAddressBook;
+			sourceTree = "<group>";
+		};
+		6DDC774D1B23F846008331EC = {
+			isa = PBXGroup;
+			children = (
+				6DDC77581B23F846008331EC /* Demo_QLAddressBook */,
+				6DDC77721B23F846008331EC /* Demo_QLAddressBookTests */,
+				6DDC77571B23F846008331EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DDC77571B23F846008331EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DDC77561B23F846008331EC /* Demo_QLAddressBook.app */,
+				6DDC776F1B23F846008331EC /* Demo_QLAddressBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DDC77581B23F846008331EC /* Demo_QLAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				6DDC77811B23F865008331EC /* QLAppDelegate.h */,
+				6DDC77821B23F865008331EC /* QLAppDelegate.m */,
+				6DDC77831B23F865008331EC /* QLViewController.h */,
+				6DDC77841B23F865008331EC /* QLViewController.m */,
+				6D6BD64B1B2451570080BC06 /* QLOriViewController.h */,
+				6D6BD64C1B2451570080BC06 /* QLOriViewController.m */,
+				6D6BD64A1B24381B0080BC06 /* QLAddressBookConst.h */,
+				6DDC77591B23F846008331EC /* Supporting Files */,
+			);
+			path = Demo_QLAddressBook;
+			sourceTree = "<group>";
+		};
+		6DDC77591B23F846008331EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D6BD6721B2473AE0080BC06 /* RHAddressBook */,
+				6D6BD6991B2477B60080BC06 /* AddressBook.pptx */,
+				6DDC777F1B23F865008331EC /* Images.xcassets */,
+				6DDC77891B23F871008331EC /* Main.storyboard */,
+				6DDC77801B23F865008331EC /* main.m */,
+				6DDC775A1B23F846008331EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DDC77721B23F846008331EC /* Demo_QLAddressBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DDC77751B23F846008331EC /* Demo_QLAddressBookTests.m */,
+				6DDC77731B23F846008331EC /* Supporting Files */,
+			);
+			path = Demo_QLAddressBookTests;
+			sourceTree = "<group>";
+		};
+		6DDC77731B23F846008331EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DDC77741B23F846008331EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DDC77551B23F846008331EC /* Demo_QLAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DDC77791B23F846008331EC /* Build configuration list for PBXNativeTarget "Demo_QLAddressBook" */;
+			buildPhases = (
+				6DDC77521B23F846008331EC /* Sources */,
+				6DDC77531B23F846008331EC /* Frameworks */,
+				6DDC77541B23F846008331EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo_QLAddressBook;
+			productName = Demo_QLAddressBook;
+			productReference = 6DDC77561B23F846008331EC /* Demo_QLAddressBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DDC776E1B23F846008331EC /* Demo_QLAddressBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DDC777C1B23F846008331EC /* Build configuration list for PBXNativeTarget "Demo_QLAddressBookTests" */;
+			buildPhases = (
+				6DDC776B1B23F846008331EC /* Sources */,
+				6DDC776C1B23F846008331EC /* Frameworks */,
+				6DDC776D1B23F846008331EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DDC77711B23F846008331EC /* PBXTargetDependency */,
+			);
+			name = Demo_QLAddressBookTests;
+			productName = Demo_QLAddressBookTests;
+			productReference = 6DDC776F1B23F846008331EC /* Demo_QLAddressBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DDC774E1B23F846008331EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QL;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = M;
+				TargetAttributes = {
+					6DDC77551B23F846008331EC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6DDC776E1B23F846008331EC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6DDC77551B23F846008331EC;
+					};
+				};
+			};
+			buildConfigurationList = 6DDC77511B23F846008331EC /* Build configuration list for PBXProject "Demo_QLAddressBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DDC774D1B23F846008331EC;
+			productRefGroup = 6DDC77571B23F846008331EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DDC77551B23F846008331EC /* Demo_QLAddressBook */,
+				6DDC776E1B23F846008331EC /* Demo_QLAddressBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DDC77541B23F846008331EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DDC77851B23F865008331EC /* Images.xcassets in Resources */,
+				6DDC778B1B23F871008331EC /* Main.storyboard in Resources */,
+				6D6BD68F1B2473AF0080BC06 /* RHAddressBook-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDC776D1B23F846008331EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DDC77521B23F846008331EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DDC77881B23F865008331EC /* QLViewController.m in Sources */,
+				6D6BD6971B2473AF0080BC06 /* RHRecord.m in Sources */,
+				6D6BD6981B2473AF0080BC06 /* RHSource.m in Sources */,
+				6DDC77861B23F865008331EC /* main.m in Sources */,
+				6D6BD68E1B2473AF0080BC06 /* NSThread+RHBlockAdditions.m in Sources */,
+				6D6BD6951B2473AF0080BC06 /* RHMultiValue.m in Sources */,
+				6D6BD6931B2473AF0080BC06 /* RHAddressBookThreadMain.m in Sources */,
+				6D6BD64D1B2451570080BC06 /* QLOriViewController.m in Sources */,
+				6D6BD6961B2473AF0080BC06 /* RHPerson.m in Sources */,
+				6DDC77871B23F865008331EC /* QLAppDelegate.m in Sources */,
+				6D6BD6901B2473AF0080BC06 /* RHAddressBook.m in Sources */,
+				6D6BD6941B2473AF0080BC06 /* RHGroup.m in Sources */,
+				6D6BD6921B2473AF0080BC06 /* RHAddressBookSharedServices.m in Sources */,
+				6D6BD6911B2473AF0080BC06 /* RHAddressBookGeoResult.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DDC776B1B23F846008331EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DDC77761B23F846008331EC /* Demo_QLAddressBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DDC77711B23F846008331EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DDC77551B23F846008331EC /* Demo_QLAddressBook */;
+			targetProxy = 6DDC77701B23F846008331EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DDC77891B23F871008331EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DDC778A1B23F871008331EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DDC77771B23F846008331EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DDC77781B23F846008331EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DDC777A1B23F846008331EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Demo_QLAddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DDC777B1B23F846008331EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Demo_QLAddressBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DDC777D1B23F846008331EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Demo_QLAddressBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo_QLAddressBook.app/Demo_QLAddressBook";
+			};
+			name = Debug;
+		};
+		6DDC777E1B23F846008331EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Demo_QLAddressBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo_QLAddressBook.app/Demo_QLAddressBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DDC77511B23F846008331EC /* Build configuration list for PBXProject "Demo_QLAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DDC77771B23F846008331EC /* Debug */,
+				6DDC77781B23F846008331EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DDC77791B23F846008331EC /* Build configuration list for PBXNativeTarget "Demo_QLAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DDC777A1B23F846008331EC /* Debug */,
+				6DDC777B1B23F846008331EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DDC777C1B23F846008331EC /* Build configuration list for PBXNativeTarget "Demo_QLAddressBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DDC777D1B23F846008331EC /* Debug */,
+				6DDC777E1B23F846008331EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DDC774E1B23F846008331EC /* Project object */;
+}
